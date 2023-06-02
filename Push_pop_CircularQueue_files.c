@@ -86,13 +86,6 @@ int main()
         for (int k = front; k <= rear; k++)
             fprintf(fp2, "%d\n", queue[k]);
     }
-    else
-    {
-        for (int k = front; k < SIZE; k++)
-            fprintf(fp2, "%d\n", queue[k]);
-        for (int k = 0; k <= rear; k++)
-            fprintf(fp2, "%d\n", queue[k]);
-    }
     fclose(fp2);
 
     return 0;
